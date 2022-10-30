@@ -38,13 +38,10 @@ morse_dict = {
     "0": "-----"
 }
 
-
 print("Hello and Welcome to the Text-to-Morse Program!")
 print("The Program is able to process Letters, Numbers and Spaces.") 
 print("Please do not input any other characters.")
 print("")
-
-
 
 def morsing():
     running = True
@@ -61,9 +58,3 @@ def morsing():
             running = False
             print("See you later!")
 morsing()
-
-
-
-
-
-
